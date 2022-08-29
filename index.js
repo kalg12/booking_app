@@ -12,9 +12,9 @@ app.use(express.json())
 app.use(flights)
 
 
-app.get('/', (req, res) => {
+/* app.get('/', (req, res) => {
     res.send('<h1>Holaaa</h1>')
-})
+}) */
 
 //Server
 app.listen(port, () => {
